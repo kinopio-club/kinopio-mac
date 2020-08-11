@@ -10,7 +10,8 @@
 		9DAE13B424E2F4C600056B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE13B324E2F4C600056B4B /* AppDelegate.swift */; };
 		9DAE13B624E2F4C600056B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE13B524E2F4C600056B4B /* ViewController.swift */; };
 		9DAE13B824E2F4C700056B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DAE13B724E2F4C700056B4B /* Assets.xcassets */; };
-		9DAE13BB24E2F4C700056B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DAE13B924E2F4C700056B4B /* Main.storyboard */; };
+		9DAE13C424E2F4EF00056B4B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE13C324E2F4EF00056B4B /* main.swift */; };
+		9DAE13C624E2FB4700056B4B /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAE13C524E2FB4700056B4B /* AppMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,9 +19,10 @@
 		9DAE13B324E2F4C600056B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DAE13B524E2F4C600056B4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DAE13B724E2F4C700056B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DAE13BA24E2F4C700056B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DAE13BC24E2F4C700056B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DAE13BD24E2F4C700056B4B /* Kinopio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kinopio.entitlements; sourceTree = "<group>"; };
+		9DAE13C324E2F4EF00056B4B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9DAE13C524E2FB4700056B4B /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 				9DAE13B324E2F4C600056B4B /* AppDelegate.swift */,
 				9DAE13B524E2F4C600056B4B /* ViewController.swift */,
 				9DAE13B724E2F4C700056B4B /* Assets.xcassets */,
-				9DAE13B924E2F4C700056B4B /* Main.storyboard */,
 				9DAE13BC24E2F4C700056B4B /* Info.plist */,
 				9DAE13BD24E2F4C700056B4B /* Kinopio.entitlements */,
+				9DAE13C324E2F4EF00056B4B /* main.swift */,
+				9DAE13C524E2FB4700056B4B /* AppMenu.swift */,
 			);
 			path = Kinopio;
 			sourceTree = "<group>";
@@ -122,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DAE13B824E2F4C700056B4B /* Assets.xcassets in Resources */,
-				9DAE13BB24E2F4C700056B4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,21 +137,12 @@
 			files = (
 				9DAE13B624E2F4C600056B4B /* ViewController.swift in Sources */,
 				9DAE13B424E2F4C600056B4B /* AppDelegate.swift in Sources */,
+				9DAE13C624E2FB4700056B4B /* AppMenu.swift in Sources */,
+				9DAE13C424E2F4EF00056B4B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9DAE13B924E2F4C700056B4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DAE13BA24E2F4C700056B4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9DAE13BE24E2F4C700056B4B /* Debug */ = {
